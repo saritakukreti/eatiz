@@ -1,0 +1,46 @@
+@media screen and (max-width: 990px){
+    h1{
+        font-size: 28px;
+    }
+    .header {
+        background: #fef4eb;
+    }
+    #slider{
+        background-image: none;
+    }
+    #slider .light-text {
+        display: none;
+    }
+    .banner-title{
+        margin-top: 90px;
+    }
+    .fl-wrap {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .food-section{
+        background-color: #fe0339;
+    }
+   #about p{
+       margin-top: 25px;
+   }
+   #food {
+    padding: 8px 0px 80px;
+}
+.shape2{
+    display: none;
+}
+#booking{
+    background-image: none;
+    height: 250px;
+}
+.search-box {
+    padding: 32px 9px;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #fe0339;
+}
+} /* Media Query End */
+

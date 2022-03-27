@@ -1,0 +1,277 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 150%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+   padding-right: 0 !important;
+}
+
+html {
+  font-size: 100%;
+      /*62.5%;*/
+      /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  overflow-y: scroll;
+      /* Keeps page centred in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%;
+      /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+      /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+      
+      /*
+      * typography.scss
+      * -----------------------------------------------
+      */
+::selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #333;
+          /* Firefox */
+  color: #fff;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: #333;
+            /* Safari */
+  color: #fff;
+  text-shadow: none;
+}
+
+:active,
+            :focus {
+  outline: none !important;
+}
+
+body {
+  max-width: 100%;
+  position: relative;
+  color: #000000;
+  background-color: #fff5ec;
+}
+
+a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #ff033c;
+}
+
+p, ul {
+  color: #888685;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.1;
+  font-weight: 600;
+  color: #2e266f;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+              
+/* MAIN PAGE CSS START */
+.color-red{
+  color: #ff033c;
+}
+.bg-white{
+  background-color: #ffffff;
+}
+/* Navbar */
+.header{
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #2e266f;
+    padding: 0px 6px 0px 35px;
+    font-size: 14px;
+}
+
+/* Slider */
+#slider{
+  background-image: url(../images/home/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    display: flex;
+    align-items: center;
+
+}
+#slider .light-text{
+  position: absolute;
+    top: 150px;
+    font-size: 131px;
+    opacity: 0.02;
+    font-weight: bolder;
+}
+#slider .owl-theme .owl-nav {
+  margin-top: 5px;
+  text-align: right;
+} 
+#slider .owl-theme .owl-nav [class*=owl-]:hover {
+  background: none;
+}
+.banner-title{
+  color: #2e266f;
+}
+.main-search-input {
+  background: #fff;
+  padding: 0 120px 0 0;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.3)
+}
+.fl-wrap {
+  float: left;
+  width: 80%;
+  position: relative;
+  margin-top:25px;
+}
+.main-search-input-item {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  position: relative
+}
+
+.main-search-input-item input {
+  float: left;
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px
+}
+.main-search-button {
+  position: absolute;
+  right: 5px;
+  height: 46px;
+  width: 110px;
+  color: #fff;
+  top: 3px;
+  border: none;
+  border-top-left-radius: 49px;
+  background: #fe0339;
+  cursor: pointer;
+}
+
+/* About */
+#about{
+  padding: 50px 0px;
+}
+.vl {
+  border-left: 12px solid #ff033c;
+  height: 75px;
+  position: absolute;
+  margin-left: -24px;
+  top: 10px;
+}
+
+/* Food */
+#food{
+  padding: 60px 0px 80px;
+}
+figure {
+  position: relative;
+}
+figure figcaption {
+  padding: 15px;
+  bottom: 0px;
+  position: absolute;
+  background: rgb(255 3 60 / 85%);
+  width: 100%;
+  color: #fff;
+  border-radius: 10px;
+}
+figcaption h3{
+  color: #ffffff;
+}
+figcaption p{
+  font-size: 14px;
+  color: #ffffff;
+}
+.book-btn a{
+  background: #fff;
+  color: #ff033c;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-bottom-right-radius: 5px;
+}
+.book-btn a:hover{
+  background: #ff033c;
+  color: #ffffff;
+}
+.bottom-text span{
+  font-size: 12px;
+}
+figcaption:hover{
+  background: #ff033c;
+}
+
+/* Adv Booking */
+#booking{
+  background-image: url(../images/home/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 760px;
+    display: flex;
+    align-items: center;
+}
+.shape2 {
+  position: absolute;
+  top: -161px;
+  left: -149px;
+  z-index: 9;
+}
+.shape2 img{
+  width: 68%;
+}
+.search-box{
+  padding: 100px 50px;
+}
+.search-box .search {
+  position: relative;
+  box-shadow: 0px 0 10px rgb(255 236 220);
+}
+.search-box .search input {
+  height: 60px;
+  text-indent: 25px;
+  border: none;
+}
+.search-box .search input:focus {
+  box-shadow: none;
+}
+.search button {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  height: 44px;
+  width: 100px;
+  background: #fe043c;
+  border: none;
+  border-radius: 0px;
+  color: #ffffff;
+}
